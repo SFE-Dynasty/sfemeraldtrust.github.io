@@ -1,7 +1,7 @@
 VERSION="2.0.1"
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
-HOME_DOMAIN="sfemeraldtrust.github.io"
+HOME_DOMAIN="sfemeraldtrust.com"
 
 # DAO Treasury Wallet — SF Emerald Dynasty
 # Intelligent treasury wallet with multisig governance and full pipeline integration
@@ -10,13 +10,13 @@ ACCOUNTS=[
   "GCATMWLZ7EU7EUWJ3LS6SBHKILWEUS3QBALHGF3XH4IZCOPJHFB5DJYW"
 ]
 
-SIGNING_KEY="GCHQWVJ56MQNWSDAXSQEO74WIT76VCCDYLWOWATGRD7SNMCZIQOCEHML"
+SIGNING_KEY="GCHQWVJ56MQNWSDAXSQEI74WIT76VCCDYLWOWATGRD7SNMCZIQOCEHML"
 
 [DOCUMENTATION]
 ORG_NAME="SF Emerald Dynasty — DAO Treasury"
 ORG_DESCRIPTION="Intelligent DAO Treasury Wallet. Multisig-governed fiduciary treasury instrument with full SFETREAS pipeline integration, CLOB settlement, ACH delivery, and CCTP bridge capabilities."
 ORG_OFFICIAL_EMAIL="ddennis@sfemeraldtrust.com"
-ORG_URL="https://sfemeraldtrust.github.io"
+ORG_URL="https://sfemeraldtrust.com"
 ORG_GITHUB="https://github.com/SFE-Dynasty"
 
 [[PRINCIPALS]]
