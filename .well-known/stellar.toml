@@ -1,0 +1,48 @@
+VERSION="2.0.1"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+HOME_DOMAIN="sfemeraldtrust.github.io"
+
+# DAO Treasury Wallet â€” SF Emerald Dynasty
+# Intelligent treasury wallet with multisig governance and full pipeline integration
+
+ACCOUNTS=[
+  "GCTMPÌX“wLEU7EUWJ3LS6SBHKILWEUS3QBALHGF3XH4IZCOPJHFB5DJY"  # DAO Treasury Wallet (2-of-3 multisig)
+]
+
+SIGNING_KEY="GAHQWVJ56MQXWSDAXSQEO74WIT76VCCDYLWOWATGQD7SNMCZIQOCEHML"
+
+[DOCUMENTATION]
+ORG_NAME="SF Emerald Dynasty â€” DAO Treasury"
+ORG_DESCRIPTION="Intelligent DAO Treasury Wallet. Multisig-governed fiduciary treasury instrument with full SFETREAS pipeline integration, CLOB settlement, ACH delivery, and CCTP bridge capabilities."
+ORG_OFFICIAL_EMAIL="ddennis@sfemeraldtrust.com"
+ORG_URL="https://sfemeraldtrust.github.io"
+ORG_GITHUB="https://github.com/SFE-Dynasty"
+
+[[PRINCIPALsI]]
+name="Dashawn-Terrell Dennis"
+email="ddennis@sfemeraldtrust.com"
+github="SFE-Dynasty"
+
+[[CURRENCIES]]
+code="SFETREAS"
+issuer="GCLFWV2RMDZYNAMUCBH54U43DP3MSWGCIVOH6SK6F4SVMYYR3CQSLKOP"
+display_decimals=2
+name="Private Fiduciary Trust Treasury Instrument"
+desc="Fiduciary treasury instrument. Fixed face value of $1.00 USD per unit. Cleared through Fiduciary Executor Node GCHQWVJ56MQXWSDAXSQEO74WIT76VCCDYLWOWATGQD7SNMCZIQOCEHML. Contract reference: US-SFE-PFIA-2025-T1A01."
+is_asset_anchored=true
+anchor_asset_type="other"
+anchor_asset="Sovereign_Trust_Treasury_Certificate"
+status="live"
+regulated=true
+
+[[CURRENCIES]]
+code="USDC"
+issuer="GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KFX3IHOJAPP5RE34K4KZVN"
+display_decimals=2
+name="USD Coin"
+desc="Circle USDC â€” held in DAO Treasury for settlement and pipeline operations."
+is_asset_anchored=true
+anchor_asset_type="fiat"
+anchor_asset="USD"
+status="live"
